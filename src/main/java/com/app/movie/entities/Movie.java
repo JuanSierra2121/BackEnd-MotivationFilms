@@ -30,8 +30,8 @@ public class Movie implements Serializable {
 
     @Id
     @GeneratedValue(strategy =GenerationType.IDENTITY)
-    private String id;
-    private String name;
+    private String idMovie;
+    private String nameMovie;
     private List<Category> categories;
     private List<Staff> staffList;
     
