@@ -18,8 +18,8 @@ import javax.persistence.Id;
 public class Staff {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private String id;
-    private String name;
+    private String idStaff;
+    private String nameStaff;
     private String lastName;
     private String rol;
 
