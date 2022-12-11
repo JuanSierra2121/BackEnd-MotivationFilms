@@ -30,8 +30,8 @@ public class Category implements Serializable {
 
     @Id
     @GeneratedValue(strategy =GenerationType.IDENTITY)
-    private String id;
-    private String name;
+    private String idCategory;
+    private String nameCategory;
     private String description;
     private Integer ageMinimum;
     
