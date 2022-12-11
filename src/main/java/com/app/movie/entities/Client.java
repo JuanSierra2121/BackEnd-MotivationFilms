@@ -28,10 +28,10 @@ public class Client implements Serializable {
 
     @Id
     @GeneratedValue(strategy =GenerationType.IDENTITY)
-    private String id;
+    private String idclient;
     private String email;
     private String password;
-    private String name;
+    private String nameclient;
     private String lastName;
     private String birthDate;
     private String phone;
